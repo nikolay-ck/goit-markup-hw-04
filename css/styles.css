@@ -83,8 +83,13 @@ a {
     display: block;
 }
 
+.nav-link.current {
+    position: relative;
+}
+
 .nav-link:hover, 
-.nav-link:focus {
+.nav-link:focus,
+.nav-link.current {
     color: #404bbf;
 }
 
